@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html> 
+	<head>
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<meta charset="utf-8">
+		<title>Frank Ruiz - Portfolio</title>
+		<link rel="icon" type="image/png" href="img/favicon1.png" sizes="32x32" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+
+	<body>
+	<header class="page-header">
+		<!-- adding logo later -->
+			<img src="img/icon.png" alt="logo" class="page-header__item">
+			<nav class="main-navigation page-header__item">	
+				<ul role="menubar" class="navigation-list">
+					<li role="presentation">
+						<a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+					</li>
+					<li role="presentation">
+						<a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+					</li>
+					<li role="presentation">
+						<a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item-active">Contact</a>
+					</li>
+					<li role="presentation">
+						<a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+					</li>
+				</ul>
+			</nav>
+	</header>
+
+	<div class="page-footer">
+	<h1>Contact</h1>
+
+	<div>
+		Cell: 
+		<a href="tel:+13137994729">(313)799-4729</a><br>
+		Email: 
+		<a href="frankjrmv@gmail.com">frankjrmv at gmail</a><br>
+		<a href="frankjrmv@gmail.com">Contact me</a>
+	</div>
+
+	<form action="" method="post" id="contact-form">
+		<label class="standard-label" for="contact-email">E-mail: </label>
+		<input type="email" id="contact-email required">
+
+		<label class="standard-label">Telephone: </label>
+		<input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+		<label class="standard-label">Message: </label>
+		<textarea maxlength="240" required></textarea>
+		<input type="submit" value="Send message">
+	</form>
+
+	<footer class="page-footer">
+		<p>Find me on:</p>
+		<div class="social-media">
+			<img src="img/github.png" alt="Github">
+			<img src="img/twitter.png" alt="Twitter">
+			<img src="img/linkedin.png" alt="LinkedIn">
+		</div>
+	</footer>
+	<script src="js/tota11y.min.js"></script>
+	</body>
+</html>
